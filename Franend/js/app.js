@@ -35,7 +35,7 @@ tech:"HTML CSS JavaScript MySQL PHP"
 const container = document.getElementById("projectContainer");
 
 // Load Projects
-fetch("http://localhost:5000/api/projects")
+fetch("https://portfolio-website-yqtg.onrender.com/api/projects")
 .then(response => response.json())
 .then(projects => {
 
@@ -116,7 +116,7 @@ document
 
     try {
 
-        const response = await fetch("http://localhost:5000/api/contact", {
+        const response = await fetch("https://portfolio-website-yqtg.onrender.com/api/contact", {
 
             method: "POST",
 
