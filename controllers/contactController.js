@@ -1,4 +1,4 @@
-const Contact = require("../models/Contact");
+const Contact = require("../models/contact");
 const sendEmail = require("../services/emailservice"); // Check filename
 
 const saveContact = async (req, res) => {
